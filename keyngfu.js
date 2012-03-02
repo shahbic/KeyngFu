@@ -32,8 +32,7 @@ for (var i = 0; i < elements.length; i++) {
 if (count) {
     var body = document.body;
     //Workaround for a stupid bug on Chrome on Mac, where it crashes for any value that has percent(%) sign.
-    var width = window.innerWidth + "px;";
-    var style = "font-size:20px;color:#000;background:#FFFF00;text-align:center;padding:10px 0;position:fixed;border:1px solid #000;z-index:100000;direction:ltr;font-weight:bold;width:" + width;
+    var style = "color:white;text-align:center;padding:20px 10px;position:fixed;z-index:100000;direction:ltr;font-weight:bold;font-size:3.5em;top:30%;left:30%;border: 1px solid #398235;background: #33A700;box-shadow: 1px 1px 4px #000000;border-radius: 5px;";
     var flash_message = document.createElement("div");
     flash_message.setAttribute("style", style);
     flash_message.appendChild(document.createTextNode("Fields have been KeyngFu\u0027d!"));
